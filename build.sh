@@ -12,7 +12,7 @@ compilerFlags="-g"
 
 includeFlags="-Isrc -Iinclude"
 
-linkerFlags="-LBin -Wl,-rpath,."
+linkerFlags="-LBin -Wl,-rpath,. -lX11"
 
 echo "Building $assembly..."
 
